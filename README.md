@@ -10,8 +10,8 @@
 
 **slow down to code faster.**
 
-[![npm](https://img.shields.io/npm/v/@zenbuild/zenbuild?color=a8c5a0&style=flat-square&label=npm)](https://www.npmjs.com/package/@zenbuild/zenbuild)
-[![license](https://img.shields.io/npm/l/@zenbuild/zenbuild?color=a8c5a0&style=flat-square)](./LICENSE)
+![NPM Version](https://img.shields.io/npm/v/@zenbuild/zenbuild?style=for-the-badge&color=black)
+![License](https://img.shields.io/github/license/0xendale/zenbuild?style=for-the-badge&color=black)
 [![node](https://img.shields.io/node/v/@zenbuild/zenbuild?color=a8c5a0&style=flat-square)](https://nodejs.org)
 [![zero dependencies](https://img.shields.io/badge/dependencies-zero-a8c5a0?style=flat-square)]()
 

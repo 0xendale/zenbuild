@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/0xendale/zenbuild.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/0xendale/zenbuild#readme",
   "bin": {
     "zenbuild": "./index.js"
