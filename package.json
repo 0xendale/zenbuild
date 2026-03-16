@@ -1,5 +1,5 @@
 {
-  "name": "zen-build",
+  "name": "@zenbuild/zenbuild",
   "version": "1.0.0",
   "description": "Slow down to code faster.",
   "type": "module",
