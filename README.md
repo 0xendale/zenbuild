@@ -3,7 +3,7 @@
 ```
           ◯
        ∿∿∿ ∿∿∿
-     zen-build
+     zenbuild
 ```
 
 # zenbuild
@@ -36,10 +36,10 @@ Not from the codebase. From yourself.
 ZenBuild wraps any build command and inserts a moment of intention before it runs.
 
 ```bash
-zen-build "npm run build"
-zen-build "make"
-zen-build "cargo build --release"
-zen-build "python train.py"
+zenbuild "npm run build"
+zenbuild "make"
+zenbuild "cargo build --release"
+zenbuild "python train.py"
 ```
 
 That's it. Same commands. Same output. Same exit codes.
@@ -50,13 +50,13 @@ Except now, before the machine does its thing — **you do yours.**
 
 ## What Happens
 
-Every time you run `zen-build`, in this order:
+Every time you run `zenbuild`, in this order:
 
 **🌙 Night Check**
 If it's past 11 PM or before 5 AM, ZenBuild notices. It says something quiet. Then continues. You've been warned.
 
 **🔥 Burnout Shield**
-Five builds in ten minutes? ZenBuild locks the keyboard for 60 seconds — no negotiation, no override. It tracks builds in `~/.zen-build/history.json`. When the cooldown ends, the slate clears. You may proceed. Hopefully slower.
+Five builds in ten minutes? ZenBuild locks the keyboard for 60 seconds — no negotiation, no override. It tracks builds in `~/.zenbuild/history.json`. When the cooldown ends, the slate clears. You may proceed. Hopefully slower.
 
 **🫁 The Breathing Bar**
 Ten seconds. Every time. Inhale four. Hold two. Exhale four. A progress bar moves with your breath. It cannot be skipped. That is the point.

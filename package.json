@@ -1,10 +1,14 @@
 {
   "name": "@zenbuild/zenbuild",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "Slow down to code faster.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xendale/zenbuild.git"
+  },
   "bin": {
-    "zen-build": "./index.js"
+    "zenbuild": "./index.js"
   },
   "scripts": {
     "test": "node --test test/"

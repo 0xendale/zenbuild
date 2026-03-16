@@ -16,7 +16,7 @@ function header() {
   console.log()
   console.log(`        ${DIM}( zen )${RESET}`)
   console.log(`     ${DIM}∿∿∿  ◯  ∿∿∿${RESET}`)
-  console.log(`   ${BOLD}zen-build v1.0.0${RESET}`)
+  console.log(`   ${BOLD}zenbuild v0.1.0${RESET}`)
   console.log(`   ${DIM}"slow down to code faster"${RESET}`)
   console.log(SEP)
 }
@@ -24,8 +24,8 @@ function header() {
 const cmd = process.argv[2]
 
 if (!cmd) {
-  console.log(`\n  ${BOLD}Usage:${RESET}   zen-build ${DIM}"<your build command>"${RESET}`)
-  console.log(`  ${DIM}Example: zen-build "npm run build"${RESET}\n`)
+  console.log(`\n  ${BOLD}Usage:${RESET}   zenbuild ${DIM}"<your build command>"${RESET}`)
+  console.log(`  ${DIM}Example: zenbuild "npm run build"${RESET}\n`)
   process.exit(1)
 }
 
@@ -47,6 +47,6 @@ const child = spawn(cmd, { shell: true, stdio: 'inherit' })
 
 child.on('close', code => process.exit(code ?? 0))
 child.on('error', err  => {
-  console.error(`\n  ${BOLD}zen-build:${RESET} could not run command — ${err.message}\n`)
+  console.error(`\n  ${BOLD}zenbuild:${RESET} could not run command — ${err.message}\n`)
   process.exit(1)
 })
