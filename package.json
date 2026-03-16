@@ -1,0 +1,21 @@
+{
+  "name": "zen-build",
+  "version": "1.0.0",
+  "description": "Slow down to code faster.",
+  "type": "module",
+  "bin": {
+    "zen-build": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["cli", "mindfulness", "build", "burnout", "developer-tools"],
+  "license": "MIT"
+}
