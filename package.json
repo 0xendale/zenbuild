@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/0xendale/zenbuild.git"
   },
+  "homepage": "https://github.com/0xendale/zenbuild#readme",
   "bin": {
     "zenbuild": "./index.js"
   },
