@@ -1,6 +1,6 @@
 {
   "name": "@zenbuild/zenbuild",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slow down to code faster.",
   "type": "module",
   "bin": {
@@ -16,6 +16,12 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["cli", "mindfulness", "build", "burnout", "developer-tools"],
+  "keywords": [
+    "cli",
+    "mindfulness",
+    "build",
+    "burnout",
+    "developer-tools"
+  ],
   "license": "MIT"
 }
