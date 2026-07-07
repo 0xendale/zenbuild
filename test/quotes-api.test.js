@@ -37,8 +37,10 @@ test('falls back on malformed payload', async () => {
 
 test('falls back on network error', async () => {
   const fakeFetch = async () => { throw new Error('offline') }
+  const t0 = Date.now()
   const quote = await fetchQuote(fakeFetch)
   assert.ok(QUOTES.includes(quote.text))
+  assert.ok(Date.now() - t0 < 500, 'must not leave the default 2s timer pending')
 })
 
 test('falls back on timeout via AbortController', async () => {
